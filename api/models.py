@@ -31,7 +31,7 @@ class Member(AbstractUser):
     )
 
     Designation = models.SmallIntegerField(choices=DESIGNATIONS, default=DEVELOPER)
-
+#
 
 class Subscription(TimeHistory):
 
